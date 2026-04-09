@@ -1,0 +1,11 @@
+{
+  "backend_url": "http://127.0.0.1:5000",
+  "max_requests_per_minute": 20,
+  "blacklisted_ips": [],
+  "anomaly_threshold": 5,
+  "rules": {
+    "sql_injection": true,
+    "xss": true,
+    "command_injection": true
+  }
+}
